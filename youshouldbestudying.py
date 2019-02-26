@@ -16,7 +16,7 @@ def areYouGaming(localtime):
         print "Apex Legends found at ", localtime
         time.sleep(200)
         Minimize = win32gui.GetForegroundWindow()
-        win32gui.ShowWindow(Minize, win32con.SW_MINIMIZE)
+        win32gui.ShowWindow(Minimize, win32con.SW_MINIMIZE)
         winsound.Playsound('alert.wav', winsound.SND_FILENAME)
         
 while True:
