@@ -17,7 +17,7 @@ def areYouGaming(localtime):
         time.sleep(200)
         Minimize = win32gui.GetForegroundWindow()
         win32gui.ShowWindow(Minize, win32con.SW_MINIMIZE)
-        windsound.Playsound('alert.wav', winsound.SND_FILENAME)
+        winsound.Playsound('alert.wav', winsound.SND_FILENAME)
         
 while True:
     areYouGaming()
